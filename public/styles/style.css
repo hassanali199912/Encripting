@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .text-content h2,
+p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-content .card {
+    margin: 1rem;
+}
+
+.card-content .card .card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#valuesOfCipher {
+    text-align: center;
+}
